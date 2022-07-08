@@ -1,0 +1,14 @@
+.search__wrapper {
+  @include grid(center, center, 2rem);
+  grid-template-columns: Repeat(auto-fit, minmax(200px, 1fr));
+
+  background: $clr-white;
+  box-shadow: 2rem 1rem 3rem $clr-dark;
+  border-radius: 1rem;
+  padding: 6rem 2rem;
+
+  & > div:not(:last-of-type) {
+    padding-right: 25%;
+    border-right: 4px solid $clr-secondary-6;
+    @include grid(center, center, 2rem);
+    grid-template-columns: auto 1fr;
