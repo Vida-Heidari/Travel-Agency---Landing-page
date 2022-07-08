@@ -29,3 +29,10 @@
   place-items: center;
 }
 
+@mixin position($type, $top, $bottom, $left, $right) {
+  position: $type;
+  top: $top;
+  bottom: $bottom;
+  left: $left;
+  right: $right;
+}
