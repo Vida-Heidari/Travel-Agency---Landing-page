@@ -4,3 +4,9 @@
     @include grid(center, center, 1rem);
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+
+  .photography__content {
+    width: 50%;
+    padding: 4rem 0;
+  }
+}
