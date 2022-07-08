@@ -9,6 +9,10 @@
     padding-top: 7rem;
     padding-bottom: 2rem;
 
+    @media screen and (max-width: #{$breakpoint-s}px) {
+      padding-top: 1rem;
+    }
+
     &::before {
       content: "Travel";
       position: absolute;
