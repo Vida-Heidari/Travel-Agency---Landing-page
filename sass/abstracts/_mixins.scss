@@ -36,3 +36,7 @@
   left: $left;
   right: $right;
 }
+
+@mixin transition-3ms {
+  transition: all 300ms ease-in-out;
+}
