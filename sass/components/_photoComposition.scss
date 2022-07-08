@@ -74,6 +74,11 @@
     top: 27%;
     left: 23%;
 
+    @media screen and (max-width: #{$breakpoint-s}px) {
+      top: 25%;
+      left: 15%;
+    }
+  }
 
   .composition__photo--5 {
     top: 45%;
