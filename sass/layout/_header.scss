@@ -7,8 +7,13 @@
     .header__logo {
       cursor: pointer;
     }
+
+    .close-btn,
+    .menu-btn {
+      display: none;
   }
 }
+@media screen and (max-width: #{$breakpoint-md}px) {
 }
 
   }
