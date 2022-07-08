@@ -14,6 +14,14 @@
     height: 100%;
     background: $clr-gray-light;
 
+    @media screen and (max-width: #{$breakpoint-md}px) {
+      grid-area: 1 / 4 / 2 / 2;
+      width: 100%;
+      gap: 2rem;
+      align-self: flex-start;
+    }
+  }
+
   .hero__center-images {
     grid-area: 1 / 2 / 3 / 4;
 
