@@ -4,6 +4,11 @@
     @include grid(center, center, 1rem);
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+    @media screen and (max-width: #{$breakpoint-2xl}px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+    }
+  }
 
   .photography__content {
     width: 50%;
