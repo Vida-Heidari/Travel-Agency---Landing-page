@@ -17,3 +17,7 @@
   padding: clamp(1rem, 1vw, 1.5rem) clamp(1rem, 3vw, 3rem);
 }
 
+.btn--secondary {
+  border-radius: 4rem;
+  padding: clamp(1rem, 1vw, 2rem) clamp(1rem, 3vw, 4rem);
+}
