@@ -1,0 +1,13 @@
+.btn {
+  background: $clr-accent;
+  color: $clr-white;
+  font-size: clamp(1rem, 2vw, 1.7rem);
+
+  cursor: pointer;
+  @include transition-3ms;
+
+  &:hover {
+    background: darken($clr-accent, 5%);
+  }
+}
+
