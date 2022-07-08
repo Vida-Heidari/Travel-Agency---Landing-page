@@ -11,11 +11,37 @@
     .close-btn,
     .menu-btn {
       display: none;
-  }
-}
-@media screen and (max-width: #{$breakpoint-md}px) {
-}
 
+      @media screen and (max-width: #{$breakpoint-md}px) {
+        display: block;
+      }
+    }
+
+    .menu-btn {
+      @media screen and (max-width: #{$breakpoint-md}px) {
+        display: flex;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #000;
+        font-size: 2rem;
+      }
+    }
+
+    .close-btn {
+      @media screen and (max-width: #{$breakpoint-md}px) {
+        border: 1px solid $clr-gray;
+        background: $clr-gray-light;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+        @include position(absolute, unset, unset, unset, 2rem);
+        @include transition-3ms;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
   }
-}
 }
