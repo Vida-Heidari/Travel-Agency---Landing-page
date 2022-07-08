@@ -40,3 +40,13 @@
       }
     }
   }
+}
+
+.menu--open {
+  transform: translateX(0);
+
+  &::after {
+    opacity: 1;
+    visibility: visible;
+  }
+}
