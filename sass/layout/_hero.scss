@@ -40,6 +40,11 @@
       border-radius: 50%;
       @include transition-3ms;
       cursor: pointer;
+
+      &:hover {
+        // filter: drop-shadow(0.5rem 0.5rem 1.5rem $clr-accent);
+        transform: scale(1.2);
+      }
   .hero__right-image {
     grid-area: 1 / 3 / 3 / 5;
     width: 100%;
