@@ -1,0 +1,4 @@
+.hero__content {
+  padding-right: 10%;
+  padding-left: 5%;
+  @include flex(column, center, flex-start, 5rem);
