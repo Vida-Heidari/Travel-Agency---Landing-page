@@ -33,3 +33,13 @@ input {
   font-family: "Finlandica", sans-serif;
 }
 
+.search__detailes {
+  span,
+  h5 {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+  }
+}
+
+p {
+  font-size: clamp(1.2rem, 4vw, 1.6rem);
+}
