@@ -42,6 +42,12 @@
     top: 5%;
     right: 23%;
 
+    @media screen and (max-width: #{$breakpoint-s}px) {
+      top: 9%;
+      right: 14%;
+    }
+  }
+
   .composition__photo--2 {
     width: clamp(5rem, 20vw, 12rem);
     top: 21%;
