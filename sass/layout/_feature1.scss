@@ -48,3 +48,10 @@
         }
       }
 
+      .icon2 {
+        background: $clr-secondary-5;
+        i {
+          color: darken($clr-secondary-5, 50%);
+        }
+      }
+
