@@ -2,3 +2,9 @@
   position: relative;
   height: 60rem;
   width: 100%;
+
+  img {
+    width: clamp(9rem, 25vw, 17rem);
+    aspect-ratio: 1;
+  }
+
