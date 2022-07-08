@@ -35,6 +35,17 @@
     @include flex(column, space-around, center, 5rem);
     height: 100%;
     padding: 10rem 0;
+
+    @media screen and (max-width: #{$breakpoint-md}px) {
+      grid-area: 0 / 1 / 4 / 4;
+      @include flex(row, space-around, center, 5rem);
+      justify-self: flex-start;
+    }
+
+    @media screen and (max-width: #{$breakpoint-s}px) {
+      @include flex(row, space-around, center, 2rem);
+      // transform: translateY(1.5rem);
+    }
     img {
       aspect-ratio: 1;
       border-radius: 50%;
@@ -82,6 +93,11 @@
       height: 100%;
       object-fit: cover;
     }
+
+    @media screen and (max-width: #{$breakpoint-md}px) {
+      grid-area: 2 / 1 / 3 / 5;
+    }
+  }
 
   .search__wrapper {
     grid-area: 2 / 1 / 4 / 6;
