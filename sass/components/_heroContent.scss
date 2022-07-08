@@ -2,3 +2,10 @@
   padding-right: 10%;
   padding-left: 5%;
   @include flex(column, center, flex-start, 5rem);
+
+  .hero__title {
+    color: $clr-black;
+  }
+
+  .hero__pragragh {
+    font-size: clamp(1.2rem, 4vw, 1.6rem);
