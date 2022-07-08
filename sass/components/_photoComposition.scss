@@ -3,6 +3,10 @@
   height: 60rem;
   width: 100%;
 
+  @media screen and (max-width: #{$breakpoint-s}px) {
+    height: 30rem;
+  }
+
   img {
     width: clamp(9rem, 25vw, 17rem);
     aspect-ratio: 1;
