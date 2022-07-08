@@ -16,3 +16,10 @@
   gap: $gap;
 }
 
+@mixin grid($ji, $ai, $gap: 0) {
+  display: grid;
+  justify-items: $ji;
+  align-items: $ai;
+  justify-content: unset;
+  gap: $gap;
+}
