@@ -11,3 +11,9 @@
   }
 }
 
+.btn--primary {
+  border-radius: 1rem;
+  padding: 1.5rem 3rem;
+  padding: clamp(1rem, 1vw, 1.5rem) clamp(1rem, 3vw, 3rem);
+}
+
