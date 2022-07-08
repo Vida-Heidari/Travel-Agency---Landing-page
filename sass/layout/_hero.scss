@@ -1,0 +1,11 @@
+#hero {
+  width: 100%;
+  position: relative;
+
+  .hero__wrapper {
+    @include grid(center, center);
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr auto;
+    height: fit-content;
+
