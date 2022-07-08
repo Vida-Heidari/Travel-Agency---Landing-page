@@ -3,16 +3,35 @@
   padding-left: 5%;
   @include flex(column, center, flex-start, 5rem);
 
+  @media screen and (max-width: #{$breakpoint-xl}px) {
+    padding-bottom: 12.5rem;
+  }
+
+  @media screen and (max-width: #{$breakpoint-md}px) {
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+
   .hero__title {
     color: $clr-black;
   }
 
   .hero__pragragh {
     font-size: clamp(1.2rem, 4vw, 1.6rem);
+    @media screen and (max-width: #{$breakpoint-md}px) {
+      width: 80%;
+    }
+  }
+
   .hero__choices {
     width: 100%;
     @include grid(flex-start, center, 1rem);
     grid-template-columns: repeat(2, 1fr);
+
+    @media screen and (max-width: #{$breakpoint-md}px) {
+      justify-items: center;
+    }
 
     & > div {
       @include grid(center, center);
@@ -50,3 +69,9 @@
     }
   }
 
+  .hero__btn {
+    @media screen and (max-width: #{$breakpoint-md}px) {
+      align-self: flex-end;
+    }
+  }
+}
