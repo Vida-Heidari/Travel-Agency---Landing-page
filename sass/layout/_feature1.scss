@@ -3,3 +3,6 @@
 
   .feature1__wrapper {
     position: relative;
+    @include grid(flex-end, center, 2rem);
+    grid-template-columns: Repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
