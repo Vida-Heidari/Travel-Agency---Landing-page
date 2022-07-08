@@ -26,6 +26,18 @@
       font-family: sans-serif;
       z-index: -1;
       letter-spacing: 3rem;
+
+      @media screen and (max-width: #{$breakpoint-md}px) {
+        top: -8rem;
+        letter-spacing: 0;
+      }
+
+      @media screen and (max-width: #{$breakpoint-s}px) {
+        top: -6rem;
+        letter-spacing: 0;
+      }
+    }
+
     .feature1__box {
       @include grid(center, center, 1rem);
       grid-template-rows: repeat(2, auto) 1fr;
