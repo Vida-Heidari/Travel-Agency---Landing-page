@@ -9,3 +9,7 @@
 
   .hero__pragragh {
     font-size: clamp(1.2rem, 4vw, 1.6rem);
+  .hero__choices {
+    width: 100%;
+    @include grid(flex-start, center, 1rem);
+    grid-template-columns: repeat(2, 1fr);
