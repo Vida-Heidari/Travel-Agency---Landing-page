@@ -13,3 +13,40 @@
     width: 100%;
     @include grid(flex-start, center, 1rem);
     grid-template-columns: repeat(2, 1fr);
+
+    & > div {
+      @include grid(center, center);
+      grid-template-rows: repeat(3, 1fr);
+      text-align: center;
+      position: relative;
+
+      .icon {
+        // width: 5rem;
+        // height: 5rem;
+        width: clamp(1rem, 8vw, 5rem);
+        height: clamp(1rem, 8vw, 5rem);
+        background: $clr-secondary-1;
+        border-radius: 50%;
+        @include grid(flex-end, flex-start);
+
+        i {
+          // font-size: 2.5rem;
+          font-size: clamp(1rem, 5vw, 2.5rem);
+          background-image: linear-gradient(to right, red, blue);
+          -webkit-background-clip: text;
+          color: transparent;
+        }
+      }
+      &:not(:first-of-type) {
+        .icon {
+          background: $clr-secondary-3;
+          @include grid(flex-start, flex-start);
+        }
+      }
+    }
+
+    span {
+      font-size: clamp(1rem, 3vw, 1.5rem);
+    }
+  }
+
