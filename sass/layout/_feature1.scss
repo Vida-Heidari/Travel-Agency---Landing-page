@@ -62,3 +62,12 @@
         }
       }
 
+      .icon4 {
+        background: $clr-secondary-4;
+        i {
+          color: darken($clr-secondary-4, 50%);
+        }
+      }
+    }
+  }
+}
