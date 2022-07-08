@@ -21,6 +21,9 @@ input {
   font: inherit;
 }
 
+h4 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+}
 
 .header__logo {
   font-size: clamp(1.5rem, 5vw, 3rem);
