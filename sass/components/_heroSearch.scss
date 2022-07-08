@@ -12,3 +12,21 @@
     border-right: 4px solid $clr-secondary-6;
     @include grid(center, center, 2rem);
     grid-template-columns: auto 1fr;
+
+    @media screen and (max-width: #{$breakpoint-md}px) {
+      border-right: 0;
+      border-bottom: 4px solid $clr-secondary-6;
+      padding-bottom: 1.5rem;
+      padding-right: 0;
+    }
+
+    i {
+      font-size: clamp(1rem, 3vw, 2.5rem);
+      color: $clr-secondary-7;
+    }
+  }
+  .book__btn {
+    width: 100%;
+    text-align: center;
+  }
+}
