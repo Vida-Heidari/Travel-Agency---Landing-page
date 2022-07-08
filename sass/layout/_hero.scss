@@ -31,6 +31,7 @@
   .hero__center-images {
     grid-area: 1 / 2 / 3 / 4;
 
+    z-index: 5;
     @include flex(column, space-around, center, 5rem);
     height: 100%;
     padding: 10rem 0;
