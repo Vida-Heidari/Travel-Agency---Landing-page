@@ -8,3 +8,9 @@
     aspect-ratio: 1;
   }
 
+  .composition__photo {
+    box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%);
+    border: 5px solid $clr-white;
+    position: absolute;
+    z-index: 10;
+    @include transition-3ms;
