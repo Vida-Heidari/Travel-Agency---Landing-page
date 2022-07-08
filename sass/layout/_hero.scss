@@ -32,6 +32,8 @@
     grid-area: 1 / 2 / 3 / 4;
 
     @include flex(column, space-around, center, 5rem);
+    height: 100%;
+    padding: 10rem 0;
   .hero__right-image {
     grid-area: 1 / 3 / 3 / 5;
     width: 100%;
