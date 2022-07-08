@@ -34,3 +34,10 @@
         font-size: clamp(1rem, 2vw, 1.3rem);
       }
 
+      & > div {
+        font-size: 3rem;
+        width: 7rem;
+        height: 7rem;
+        @include grid(center, center);
+        border-radius: 50%;
+      }
