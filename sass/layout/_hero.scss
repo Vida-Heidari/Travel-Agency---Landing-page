@@ -46,6 +46,10 @@
         transform: scale(1.2);
       }
 
+      animation: image-scale-in 2000ms ease-in-out;
+      animation-fill-mode: backwards;
+    }
+
     & > :nth-child(1),
     & > :nth-child(3) {
       border: 5px solid $clr-white;
