@@ -55,3 +55,10 @@
         }
       }
 
+      .icon3 {
+        background: $clr-secondary-2;
+        i {
+          color: darken($clr-secondary-2, 50%);
+        }
+      }
+
