@@ -36,3 +36,8 @@
       width: 48%;
     }
   }
+
+  .composition__photo--1 {
+    width: clamp(5rem, 20vw, 12rem);
+    top: 5%;
+    right: 23%;
