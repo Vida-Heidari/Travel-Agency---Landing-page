@@ -27,3 +27,9 @@ input {
   font-weight: 600;
   font-family: "Finlandica", sans-serif;
 }
+
+.hero__title {
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-family: "Finlandica", sans-serif;
+}
+
