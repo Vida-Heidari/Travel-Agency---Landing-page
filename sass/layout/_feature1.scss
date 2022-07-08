@@ -18,3 +18,10 @@
       margin: 0 1rem;
       @include transition-3ms;
       // animation: fade-in 2000ms ease-in-out;
+
+      &:hover {
+        box-shadow: 1rem 1rem 3rem $clr-dark-2;
+        background: $clr-white;
+        cursor: pointer;
+        transform: translateY(-0.2rem);
+      }
