@@ -41,3 +41,10 @@
         @include grid(center, center);
         border-radius: 50%;
       }
+      .icon1 {
+        background: $clr-secondary-1;
+        i {
+          color: darken($clr-secondary-1, 50%);
+        }
+      }
+
